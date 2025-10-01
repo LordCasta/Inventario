@@ -24,7 +24,8 @@ Es un software de inventarios básico con varias funcionalidades, cuenta con cat
     <li>Instalar dependencias: </li>
     <p>composer install</p>
     <p>npm install</p>
-    <li>Cambiar nombre de .env.example a .env</li>
+    <li>crear .env</li>
+    <p>cp .env.example .env</p>
     <li>Generar key de la aplicación: </li>
     <p>php artisan key:generate</p>
     <li>Ejecutar servidor de MySQL</li>
