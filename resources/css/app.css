@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fondo de la tabla */
+table.dataTable {
+    background-color: #1f2937; /* gris oscuro Tailwind (gray-800) */
+    color: #f9fafb; /* texto blanco Tailwind (gray-50) */
+}
+
+/* Encabezados */
+table.dataTable thead th {
+    background-color: #111827; /* gray-900 */
+    color: #f9fafb;
+}
+
+/* Filas alternadas */
+table.dataTable tbody tr:nth-child(even) {
+    background-color: #374151; /* gray-700 */
+}
+table.dataTable tbody tr:nth-child(odd) {
+    background-color: #1f2937; /* gray-800 */
+}
+
+/* Hover */
+table.dataTable tbody tr:hover {
+    background-color: #4b5563; /* gray-600 */
+}
+
+/* Paginación */
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    background-color: #1f2937;
+    color: #f9fafb !important;
+    border: 1px solid #4b5563;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background-color: #2563eb; /* azul Tailwind (blue-600) */
+    color: white !important;
+    border: none;
+}
+
+/* Buscador y selector */
+.dataTables_wrapper .dataTables_filter input,
+.dataTables_wrapper .dataTables_length select {
+    background-color: #111827;
+    border: 1px solid #4b5563;
+    color: #f9fafb;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+
+/* Estilos generales para los botones */
+.dt-button {
+    background-color: #2563eb !important; /* azul Tailwind */
+    color: white !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 6px 12px !important;
+    font-weight: 500 !important;
+    margin-right: 5px;
+    transition: background-color 0.2s ease;
+}
+
+/* Hover */
+.dt-button:hover {
+    background-color: #1d4ed8 !important; /* azul más oscuro */
+}
+
+/* Botón Excel */
+.dt-button.buttons-excel {
+    background-color: #22c55e !important; /* verde Tailwind */
+}
+.dt-button.buttons-excel:hover {
+    background-color: #16a34a !important;
+}
+
+/* Botón PDF */
+.dt-button.buttons-pdf {
+    background-color: #ef4444 !important; /* rojo Tailwind */
+}
+.dt-button.buttons-pdf:hover {
+    background-color: #dc2626 !important;
+}
+
+/* Botón Copiar */
+.dt-button.buttons-copy {
+    background-color: #6b7280 !important; /* gris Tailwind */
+}
+.dt-button.buttons-copy:hover {
+    background-color: #4b5563 !important;
+}
+
+/* Botón CSV */
+.dt-button.buttons-csv {
+    background-color: #f59e0b !important; /* amarillo Tailwind */
+}
+.dt-button.buttons-csv:hover {
+    background-color: #d97706 !important;
+}
