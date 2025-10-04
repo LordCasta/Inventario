@@ -36,3 +36,12 @@ Es un software de inventarios básico con varias funcionalidades, cuenta con cat
     <li>Levantar servidor de Laravel</li>
     <p>php artisan serve</p>
 </ol>
+
+### Credenciales
+Admin: admin@test.com </br>
+        Admin123 </br>
+Usuario: usuario@test.com </br>
+Usuario123
+
+## Recursos
+ <a href="https://www.youtube.com/watch?v=aljDqJCYkIc&list=PLDllzmccetSM50U0Y9fTOWHvSzAZ_W6Il"> Curso Recomendado</a>
